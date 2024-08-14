@@ -1,0 +1,11 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+    <script>
+        function gerarPDF() {
+            // Seleciona o formulário
+            const formulario = document.getElementById('formulario');
+            // Gera o PDF
+            html2pdf().from(formulario).save();
+        }
+    </script>
+</body>
+</html>
